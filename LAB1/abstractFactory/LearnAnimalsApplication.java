@@ -38,12 +38,22 @@ public class LearnAnimalsApplication {
                             System.out.println("Cat is : " + domesticAnimalFactory.createAnimal("cat").getType());
                             System.out.println("Cat says: ");
                             cat.animalSound();
+                            try {
+                                Thread.sleep(7000);
+                            } catch (InterruptedException e) {
+                                throw new RuntimeException(e);
+                            }
                             break;
                         case "2":
                             Animal dog = domesticAnimalFactory.createAnimal("dog");
                             System.out.println("Dog is : " + domesticAnimalFactory.createAnimal("dog").getType());
                             System.out.println("Dog says: ");
                             dog.animalSound();
+                            try {
+                                Thread.sleep(7000);
+                            } catch (InterruptedException e) {
+                                throw new RuntimeException(e);
+                            }
                             break;
                         case "3":
                             break;
@@ -62,12 +72,22 @@ public class LearnAnimalsApplication {
                             System.out.println("Lion is : " + wildAnimalFactory.createAnimal("lion").getType());
                             System.out.println("Lion says: ");
                             lion.animalSound();
+                            try {
+                                Thread.sleep(7000);
+                            } catch (InterruptedException e) {
+                                throw new RuntimeException(e);
+                            }
                             break;
                         case "2":
                             Animal wolf = wildAnimalFactory.createAnimal("wolf");
                             System.out.println("Wolf is : " + wildAnimalFactory.createAnimal("wolf").getType());
                             System.out.println("Wolf says: ");
                             wolf.animalSound();
+                            try {
+                                Thread.sleep(7000);
+                            } catch (InterruptedException e) {
+                                throw new RuntimeException(e);
+                            }
                             break;
                         case "3":
                             break;
