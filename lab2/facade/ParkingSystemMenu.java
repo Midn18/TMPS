@@ -14,6 +14,7 @@ public class ParkingSystemMenu {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String licensePlate;
         boolean quit = false;
+
         while (!quit) {
             System.out.println("Enter '1' to park a car");
             System.out.println("Enter '2' to exit parking lot");
