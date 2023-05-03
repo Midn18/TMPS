@@ -1,6 +1,6 @@
-package lab1.singletoneBuilderFactory.factoryOrderProcessing;
+package lab1.singletoneBuilderFactoryBridge.factoryOrderProcessing;
 
-import lab1.singletoneBuilderFactory.orderBuilder.Order;
+import lab1.singletoneBuilderFactoryBridge.orderBuilder.Order;
 
 public class StoreOrderProcessor implements OrderProcessor {
 

@@ -1,7 +1,7 @@
-package lab1.singletoneBuilderFactory.paymentMethod.payments;
+package lab1.singletoneBuilderFactoryBridge.paymentMethod.payments;
 
-import lab1.singletoneBuilderFactory.paymentMethod.Payment;
-import lab1.singletoneBuilderFactory.paymentMethod.PaymentGateway;
+import lab1.singletoneBuilderFactoryBridge.paymentMethod.Payment;
+import lab1.singletoneBuilderFactoryBridge.paymentMethod.PaymentGateway;
 
 public class CreditCardPayment extends Payment {
 

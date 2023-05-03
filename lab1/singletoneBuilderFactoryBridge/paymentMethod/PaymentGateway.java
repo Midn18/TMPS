@@ -1,4 +1,4 @@
-package lab1.singletoneBuilderFactory.paymentMethod;
+package lab1.singletoneBuilderFactoryBridge.paymentMethod;
 
 public interface PaymentGateway {
     void processPayment();
