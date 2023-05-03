@@ -1,11 +1,11 @@
-package lab1.singletoneBuilderFactory.factoryOrderProcessing;
+package lab1.singletoneBuilderFactoryBridge.factoryOrderProcessing;
 
-import lab1.singletoneBuilderFactory.orderBuilder.Order;
-import lab1.singletoneBuilderFactory.paymentMethod.ConcretePaymentGateway;
-import lab1.singletoneBuilderFactory.paymentMethod.Payment;
-import lab1.singletoneBuilderFactory.paymentMethod.PaymentGateway;
-import lab1.singletoneBuilderFactory.paymentMethod.payments.CreditCardPayment;
-import lab1.singletoneBuilderFactory.paymentMethod.payments.WebMoneyPayment;
+import lab1.singletoneBuilderFactoryBridge.orderBuilder.Order;
+import lab1.singletoneBuilderFactoryBridge.paymentMethod.ConcretePaymentGateway;
+import lab1.singletoneBuilderFactoryBridge.paymentMethod.Payment;
+import lab1.singletoneBuilderFactoryBridge.paymentMethod.PaymentGateway;
+import lab1.singletoneBuilderFactoryBridge.paymentMethod.payments.CreditCardPayment;
+import lab1.singletoneBuilderFactoryBridge.paymentMethod.payments.WebMoneyPayment;
 
 import java.util.Scanner;
 

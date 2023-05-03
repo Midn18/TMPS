@@ -1,4 +1,4 @@
-package lab1.singletoneBuilderFactory.orderBuilder;
+package lab1.singletoneBuilderFactoryBridge.orderBuilder;
 
 import lombok.Data;
 

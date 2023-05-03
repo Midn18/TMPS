@@ -1,6 +1,6 @@
-package lab1.singletoneBuilderFactory;
+package lab1.singletoneBuilderFactoryBridge;
 
-import lab1.singletoneBuilderFactory.orderBuilder.Order;
+import lab1.singletoneBuilderFactoryBridge.orderBuilder.Order;
 
 import java.util.ArrayList;
 import java.util.List;
