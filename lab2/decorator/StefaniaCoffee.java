@@ -4,10 +4,7 @@ import lab2.decorator.additions.Cinnamon;
 import lab2.decorator.additions.Milk;
 import lab2.decorator.additions.Sugar;
 import lab2.decorator.additions.Syrup;
-import lab2.decorator.drinkTypes.Cappuccino;
-import lab2.decorator.drinkTypes.Drink;
-import lab2.decorator.drinkTypes.Espresso;
-import lab2.decorator.drinkTypes.Latte;
+import lab2.decorator.drinkTypes.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,7 +41,7 @@ public class StefaniaCoffee {
                     order.add(espresso);
                     break;
                 case "2":
-                    Drink americano = new Espresso();
+                    Drink americano = new Americano();
                     System.out.println("Would you like to add some condiments? y/n");
                     americano = condimentMenu(scanner.nextLine(), americano);
                     printOrder(americano);
@@ -67,7 +64,7 @@ public class StefaniaCoffee {
                 case "5":
                     System.out.println("Your order:");
                     for (Drink drink : order) {
-                        System.out.println(drink.getDescription()+ " " + drink.cost() + " lei");
+                        System.out.println(drink.getDescription() + " " + drink.cost() + " lei");
                     }
                     break;
                 default:
