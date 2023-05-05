@@ -99,6 +99,7 @@ public class StefaniaCoffee {
                         break;
                     case "4":
                         drink = new Syrup(drink);
+                        break;
                     default:
                         System.out.println("Wrong input. Try again");
                         break;
