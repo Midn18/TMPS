@@ -18,7 +18,7 @@ public class PartsShop {
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("Enter command: (1) Order Brakes, (2) Order Oil Filter, (3) Quit");
+            System.out.println("Enter command: (1) Order Brakes, (2) Order Tires, (3) Quit");
             String input = scanner.nextLine();
             switch (input) {
                 case "1":

@@ -1,7 +1,7 @@
 package lab3.state.context;
 
 import lab3.state.interfaces.SemaphoreState;
-import lab3.state.sempahoreStates.RedLightState;
+import lab3.state.semaphoreStates.RedLightState;
 
 public class Semaphore {
     private SemaphoreState state;
