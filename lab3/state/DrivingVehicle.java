@@ -5,9 +5,9 @@ import lab3.state.carStates.StoppedState;
 import lab3.state.carStates.TurningState;
 import lab3.state.context.Semaphore;
 import lab3.state.context.Vehicle;
-import lab3.state.sempahoreStates.GreenLightState;
-import lab3.state.sempahoreStates.RedLightState;
-import lab3.state.sempahoreStates.YellowLightState;
+import lab3.state.semaphoreStates.GreenLightState;
+import lab3.state.semaphoreStates.RedLightState;
+import lab3.state.semaphoreStates.YellowLightState;
 
 public class DrivingVehicle {
     public static void main(String[] args) {

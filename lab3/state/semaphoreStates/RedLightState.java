@@ -1,4 +1,4 @@
-package lab3.state.sempahoreStates;
+package lab3.state.semaphoreStates;
 
 import lab3.state.interfaces.SemaphoreState;
 
